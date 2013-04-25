@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:zcml="http://namespaces.zope.org/zcml">
+
+    <utility
+        factory=".actions.eventForwarderAction.EventForwarderAction"
+        provides="Products.ZenModel.interfaces.IAction"
+        name="eventForwarderAction"
+        />
+
+    <adapter provides=".interfaces.IEventForwarderActionContentInfo"
+             for="Products.ZenModel.NotificationSubscription.NotificationSubscription"
+             factory=".info.EventForwarderActionContentInfo"
+             />
+
+</configure>
+

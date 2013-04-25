@@ -1,0 +1,3 @@
+[zenoss.zenpacks]
+ZenPacks.SteelHouseLabs.EventForwarder = ZenPacks.SteelHouseLabs.EventForwarder
+
