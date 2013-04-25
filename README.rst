@@ -23,7 +23,7 @@ Prerequisite        Restriction
 ==================  =========================================================
 Product             Zenoss 4.1.1 or higher
 Required ZenPacks   None
-Other dependencies  None
+Other dependencies  pika 0.98
 ==================  =========================================================
 
 
