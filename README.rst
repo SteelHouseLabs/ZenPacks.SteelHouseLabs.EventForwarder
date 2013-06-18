@@ -12,7 +12,7 @@ This ZenPack adds new event notification actions that are used by the
 Features
 -------------------------------------------------------------------------------
 
-The Event Forwarder action forwards events to the eventForwarder rabbit queue. Destination extention packs, such as ZenPacks.SteelHouseLabs.SplunkForwarder and ZenPacks.SteelHouseLabs.ZenossForwarder, can then consume this queue and process events to their appropriate desitnation.
+The Event Forwarder action forwards events to the eventForwarder rabbit queue. Destination extension packs, such as ZenPacks.SteelHouseLabs.SplunkForwarder and ZenPacks.SteelHouseLabs.ZenossForwarder, can then consume this queue and process events to their appropriate destination.
 
 
 Prerequisites
